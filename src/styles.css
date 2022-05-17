@@ -1,1 +1,16 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+:root{
+    --cor-1: #F790A5;
+    --cor-2: #8DD4F0;
+    --cor-3: #508CA3;
+    --cor-4: #F0E975;
+    --cor-5: #A39F58;
+    --cor-6: #f790a595;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}

@@ -1,0 +1,24 @@
+#menu{
+    height: 50px;
+}
+
+#menu ul{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 15px;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    border: 5px solid var(--cor-6);
+    border-radius: 100%;
+}
+
+.item img{
+    height: 35px;
+}

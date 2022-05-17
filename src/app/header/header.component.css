@@ -1,0 +1,16 @@
+#cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 10px;
+    background-color: var(--cor-1);
+    height: 100px;
+}
+
+#titulo{
+    font-family: "Bebas Neue", Arial, sans-serif;
+    font-size: 1.7em;
+    color: white;
+    margin-left: 25px;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.335);
+}
