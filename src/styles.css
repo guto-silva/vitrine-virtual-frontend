@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;600&display=swap');
 :root{
     --cor-1: #F790A5;
     --cor-2: #8DD4F0;
@@ -7,6 +7,10 @@
     --cor-4: #F0E975;
     --cor-5: #A39F58;
     --cor-6: #f790a595;
+    --cor-7: #8dd4f097;
+
+    --font-1: "Bebas Neue";
+    --font-2: "Vazirmatn";
 }
 
 *{

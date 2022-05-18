@@ -1,0 +1,15 @@
+<main>
+    <section id="produto" *ngFor="let ITEM of listaProdutos">
+        <section class="area-produtos">
+            <section class="titulo-produto box">
+                <h1>{{ITEM.nomeProduto}}</h1>
+            </section>
+            <section class="img-produto box">
+                <img src="{{ITEM.imagemProduto}}" alt="">
+            </section>
+            <section class="preco-produto box">
+                <h2>R$ {{ITEM.precoProduto}}</h2>
+            </section>
+        </section>
+    </section>
+</main>

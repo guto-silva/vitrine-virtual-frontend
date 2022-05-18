@@ -1,24 +1,27 @@
 #menu{
-    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100px;
+    margin: 0 auto;
+    padding: 15px;
 }
 
 #menu ul{
     display: flex;
-    align-items: center;
-    justify-content: space-around;
-    margin-top: 15px;
 }
 
+
 .item{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
+    margin: 5px;
     padding: 10px;
     border: 5px solid var(--cor-6);
     border-radius: 100%;
 }
 
 .item img{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
     height: 35px;
 }
