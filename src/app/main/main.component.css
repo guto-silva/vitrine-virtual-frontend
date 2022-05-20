@@ -5,8 +5,15 @@
     justify-content: center;
     width: 310px;
     height: 350px;
-    margin: 10px;
+    margin: auto;
+    margin-bottom: 20px;
     padding: 20px;
+    border: 3px solid var(--cor-7);
+}
+
+.titulo-produto{
+    height: 60px;
+    padding: 10px;
 }
 
 .titulo-produto h1{
@@ -14,6 +21,7 @@
     font-size: 2em;
     text-align: center;
     color: var(--cor-3);
+    line-height: 1em;
 }
 
 img{
@@ -23,9 +31,9 @@ img{
 }
 
 .preco-produto{
-    width: 130px;
+    width: 250px;
     background-color: var(--cor-3);
-    border-radius: 25px;
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -48,6 +56,6 @@ img{
 
 @media screen and (min-width: 1024px){
     main{
-        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     }
 }

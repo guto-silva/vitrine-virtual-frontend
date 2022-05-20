@@ -15,11 +15,12 @@ export class MainComponent implements OnInit {
 
   ngOnInit(): void {
     this.service.recuperarProdutos().subscribe(
-      (resultado: any) => {
+      (resultado: Produto[]) => {
+        alert("Estou no método");
         this.listaProdutos = resultado;
       },
       (err) => {
-        alert(err)
+        alert("Erro ao recuperar produto");
       }
     );
   }
