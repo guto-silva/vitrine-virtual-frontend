@@ -16,11 +16,10 @@ export class MainComponent implements OnInit {
   ngOnInit(): void {
     this.service.recuperarProdutos().subscribe(
       (resultado: Produto[]) => {
-        alert("Estou no método");
         this.listaProdutos = resultado;
       },
       (err) => {
-        alert("Erro ao recuperar produto");
+        alert("Erro ao recuperar produtos");
       }
     );
   }

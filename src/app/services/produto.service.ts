@@ -11,6 +11,6 @@ export class ProdutoService {
   constructor(private http: HttpClient) { }
 
   public recuperarProdutos() : Observable<Produto[]>{
-    return this.http.get<Produto[]>('http://localhost:8080/produtos');
+    return this.http.get<Produto[]>('http://192.168.0.107:8080/produtos');
   }
 }
