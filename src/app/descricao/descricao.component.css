@@ -1,0 +1,22 @@
+#descricao{
+    background-color: tomato;
+    display: grid;
+    width: 300px;
+    height: 300px;
+    margin: auto;
+}
+
+.img-descricao{
+    background-color: blue;
+    display: none;
+}
+
+.txt-descricao h1{
+    font-family: var(--font-2);
+    text-align: center;
+}
+
+.txt-descricao p{
+    font-family: var(--font-2);
+    text-align: justify;
+}

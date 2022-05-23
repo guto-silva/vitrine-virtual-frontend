@@ -1,6 +1,7 @@
 main{
     display: grid;
     width: 320px;
+    margin: auto;
 }
 .area-produtos{
     display: grid;
